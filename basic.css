@@ -4,16 +4,22 @@ html, body{
     margin: 10px;
 }
 
-.container > div {
+.container > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .container > div {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
     color: #ffeead;
-}
+} */
 
 
-.container > div:nth-child(1n){
+/* .container > div:nth-child(1n){
     background-color: #96ceb4;
 }
 .container > div:nth-child(3n){
@@ -24,4 +30,4 @@ html, body{
 }
 .container > div:nth-child(4n){
     background-color: #ffcc5c;
-}
+} */
